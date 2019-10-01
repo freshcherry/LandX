@@ -15,7 +15,7 @@ body {
   header {
     width: 100%;
     height: 700px;
-    background: linear-gradient(45deg, rgba(1, 14, 19, 0.75), rgba(1, 14, 19, 0.75)),  url("../image/header/bg.jpg");
+    background: linear-gradient(45deg, rgba(1, 14, 19, 0.75), rgba(1, 14, 19, 0.75)), url("../image/header/bg.jpg");
 
     .bg-header {
       width: 100%;
@@ -94,54 +94,163 @@ body {
     .header-container {
       width: 100%;
       padding-top: 160px;
-        .header-title {
-          @include defaultDisplay;
-          margin: 0 auto;
-          height: 50px;
-            h1 {
-              font-size: 45px;
-              color: #fff;
-            }
-            span {
-              color: #0199E6;
-            }
-        }
-        .header-text {
-          @include defaultDisplay;
-          width: 50%;
-          margin: 50px auto 100px;
+
+      .header-title {
+        @include defaultDisplay;
+        margin: 0 auto;
+        height: 50px;
+
+        h1 {
+          font-size: 45px;
           color: #fff;
-          font-size: 20px;
-          text-align: center;
         }
-        .header-inputs {
+
+        span {
+          color: #0199E6;
+        }
+      }
+
+      .header-text {
+        @include defaultDisplay;
+        width: 50%;
+        margin: 50px auto 100px;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .header-inputs {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 60%;
+        height: 100px;
+        margin: 0 auto;
+        background: linear-gradient(45deg, rgba(1, 14, 19, 0.8), rgba(1, 14, 19, 0.8));
+
+        .inp {
+          width: 20%;
+          height: 50%;
+          padding: 0 20px;
+          font-size: 14px;
+          background-color: #000;
+          border: 0.5px solid #008ED6;
+          border-left: 4px solid #008ED6;
+          color: #fff;
+        }
+
+        #btn-started {
+          width: 20%;
+          height: 50%;
+          font-size: 14px;
+          background-color: #008ED6;
+          cursor: pointer;
+          color: #fff;
+          border: none;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+
+
+  main {
+    width: 100%;
+
+    .bright, .bleft {
+      display: flex;
+      width: 65%;
+      padding: 100px 0;
+      margin: 0 auto;
+
+      .browser {
+        width: 50%;
+        height: 400px;
+
+        img {
+          width: 100%;
+          height: inherit;
+        }
+      }
+
+      .browser:last-child {
+        margin-left: 50px;
+      }
+
+      .features {
+        width: 50%;
+        height: 425px;
+        margin-left: 50px;
+
+        &-title {
+          margin-bottom: 70px;
+
+          h2 {
+            font-size: 35px;
+            font-weight: normal;
+          }
+        }
+
+        &-text {
+          color: #727272;
+        }
+
+        &-description {
           display: flex;
-          justify-content: space-around;
-          align-items: center;
-          width: 60%;
-          height: 100px;
-          margin: 0 auto;
-          background: linear-gradient(45deg, rgba(1, 14, 19, 0.8), rgba(1, 14, 19, 0.8));
-            .inp {
-              width: 20%;
-              height: 50%;
-              padding: 0 20px;
+          flex-wrap: wrap;
+          width: 100%;
+          margin: 50px 0;
+
+          .title {
+            display: flex;
+            width: 100%;
+
+            img {
+              width: 35px;
+              height: 35px;
+            }
+
+            h3 {
+              margin-left: 20px;
+            }
+          }
+
+          .text {
+            width: 85%;
+            margin-left: 12%;
+
+            P {
               font-size: 14px;
-              background-color: #000;
-              border: 0.5px solid #008ED6;
-              border-left: 4px solid #008ED6;
-              color: #fff;
+              color: #727272;
             }
-            #btn-started {
-              width: 20%;
-              height: 50%;font-size: 14px;
-              background-color: #008ED6;
-              cursor: pointer;
-              color: #fff;
-              border: none;
-              border-radius: 3px;
-            }
+          }
         }
+      }
+    }
+
+    .bleft {
+      width: 100%;
+      background-color: #F7F8FA;
+
+      .block {
+        display: flex;
+        width: 65%;
+        margin: 0 auto;
+
+        .features {
+          margin: 0;
+        }
+
+        .browser {
+          width: 50%;
+          height: 400px;
+
+          img {
+            width: 100%;
+            height: inherit;
+          }
+        }
+      }
     }
   }
 }

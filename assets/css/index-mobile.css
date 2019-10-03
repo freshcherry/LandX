@@ -1,0 +1,371 @@
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+
+    body header {
+        width: 100%;
+    }
+
+    body header .bg-header {
+        display: none;
+    }
+
+    body header .header-navigation .container-logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    body header .header-navigation .container-logo h1, body header .header-navigation .container-logo span {
+        font-size: 24px;
+    }
+
+    body header .header-navigation .container-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    body header .header-navigation .container-menu .burger {
+        display: block;
+    }
+
+    body header .header-navigation .container-menu .header-menu {
+        display: none;
+    }
+
+    body header .header-container {
+        width: 90%;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+
+    body header .header-container .header-title {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    body header .header-container .header-title h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    body header .header-container .header-text {
+        width: 90%;
+        margin: 30px auto;
+        text-align: justify;
+    }
+
+    body header .header-container .header-inputs {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    body header .header-container .header-inputs .inp {
+        width: 100%;
+        height: 35px;
+        margin: 10px 0;
+    }
+
+    body header .header-container .header-inputs #btn-started {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    body main .bright {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    body main .bright .browser {
+        width: 100%;
+        height: 250px;
+    }
+
+    body main .bright .features {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    body main .bright .features-title {
+        margin: 20px auto;
+    }
+
+    body main .bright .features-title h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    body main .bright .features-text {
+        text-align: justify;
+    }
+
+    body main .bright .features-description {
+        margin: 40px 0;
+    }
+
+    body main .bright .features-description .title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    body main .bright .features-description .text {
+        width: 100%;
+        margin: 10px 0;
+        text-align: justify;
+    }
+
+    body main .bleft {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    body main .bleft .block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    body main .bleft .block .features {
+        width: 100%;
+    }
+
+    body main .bleft .block .features-title {
+        margin-bottom: 20px;
+    }
+
+    body main .bleft .block .features-title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    body main .bleft .block .features-text {
+        text-align: justify;
+    }
+
+    body main .bleft .block .features-description {
+        margin: 30px 0;
+    }
+
+    body main .bleft .block .features-description .title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    body main .bleft .block .features-description .text {
+        width: 100%;
+        margin: 10px 0;
+        text-align: justify;
+    }
+
+    body main .bleft .block .browser {
+        width: 100%;
+        height: 250px;
+        margin: 30px 0;
+    }
+
+    body main .feature {
+        width: 90%;
+    }
+
+    body main .feature .feature-title {
+        padding: 20px 0;
+    }
+
+    body main .feature .feature-title h2 {
+        padding: 15px 0;
+    }
+
+    body main .feature .feature-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    body main .feature .feature-container .feature-item {
+        width: 90%;
+    }
+
+    body main .feature .feature-container .feature-item .item-desc {
+        text-align: justify;
+    }
+
+    body main .pricing {
+        padding: 15px 0;
+    }
+
+    body main .pricing .block {
+        width: 90%;
+    }
+
+    body main .pricing .block .pricing-title {
+        margin: 0 0 30px;
+    }
+
+    body main .pricing .block .pricing-container {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    body main .pricing .block .pricing-container .container-item {
+        width: 100%;
+    }
+
+    body main .video {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    body main .video .video-container {
+        width: 90%;
+        margin: 0 auto;
+        height: inherit;
+    }
+
+    body main .video .video-container img {
+        width: 100%;
+        height: 250px;
+    }
+
+    body main .video .video-icons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    body main .video .video-icons img {
+        margin: 10px 0;
+    }
+
+    body main .product {
+        padding-bottom: 30px;
+    }
+
+    body main .product .block {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    body main .product .block .product-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    body main .product .block .product-container .container-image {
+        width: 90%;
+        margin: 20px 0;
+        height: auto;
+    }
+
+    body main .product .block .product-container .container-image img {
+        width: 100%;
+        height: 170px;
+    }
+
+    body main .product .block .product-pagination {
+        margin: 0 auto;
+    }
+
+    body main .trust {
+        display: none;
+    }
+
+    body main .registration-container .container-title {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    body main .registration-container .container-btn {
+        height: 100px;
+    }
+
+    body footer .footer-top {
+        text-align: center;
+        height: 100px;
+    }
+
+    body footer .footer-top h3 {
+        font-size: 18px;
+    }
+
+    body footer .footer-bottom {
+        height: 100px;
+    }
+
+    body footer .footer-bottom .footer-container {
+        width: 85%;
+        height: 75px;
+    }
+}

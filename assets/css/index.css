@@ -171,6 +171,7 @@ body header .header-container .header-inputs .inp {
   border: 0.5px solid #008ED6;
   border-left: 4px solid #008ED6;
   color: #fff;
+  outline: none;
 }
 body header .header-container .header-inputs #btn-started {
   width: 20%;
@@ -181,6 +182,7 @@ body header .header-container .header-inputs #btn-started {
   color: #fff;
   border: none;
   border-radius: 3px;
+  outline: none;
 }
 body main {
   width: 100%;

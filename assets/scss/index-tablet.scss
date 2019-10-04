@@ -1,0 +1,194 @@
+@mixin defaultDisplay {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+
+    header {
+      width: 100%;
+
+      .header-navigation {
+        display: none;
+      }
+
+      .header-container {
+        padding-top: 70px;
+
+        .header-title {
+          width: 100%;
+          height: auto;
+          text-align: center;
+
+          h1 {
+            font-size: 36px;
+          }
+        }
+
+        .header-text {
+          margin-bottom: 50px;
+        }
+
+        .header-inputs {
+          display: flex;
+          flex-direction: column;
+          height: auto;
+
+          .inp {
+            width: 90%;
+            margin: 15px 0;
+            height: 35px;
+          }
+
+          #btn-started {
+            width: 50%;
+            margin: 25px 0;
+            height: 35px;
+          }
+        }
+      }
+    }
+
+    main {
+      width: 100%;
+      margin: 0 auto;
+
+      .bright {
+        width: 90%;
+        padding: 50px 0;
+
+        .features {
+          margin-left: 20px;
+
+          &-title {
+            margin-bottom: 20px;
+
+            h2 {
+              font-size: 24px;
+            }
+          }
+
+          &-description {
+            margin: 45px 0;
+
+            .text {
+              margin-left: 17%;
+            }
+          }
+        }
+      }
+
+      .bleft {
+        width: 100%;
+        padding: 20px 0;
+
+        .browser {
+          margin-left: 20px !important;
+        }
+
+        .block {
+          width: 90%;
+          margin: 0 auto;
+
+          .features {
+            &-title {
+              margin-bottom: 20px;
+
+              h2 {
+                font-size: 24px;
+              }
+            }
+
+            &-description {
+              margin: 45px 0;
+
+              .text {
+                margin-left: 17%;
+              }
+            }
+          }
+        }
+      }
+
+      .feature {
+        width: 90%;
+        padding-bottom: 10px;
+
+        &-title {
+          padding: 20px 0 !important;
+
+          h2 {
+            padding: 25px 0 !important;
+          }
+        }
+
+        &-container {
+          h3 {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .pricing {
+        padding: 0;
+
+        .block {
+          width: 90%;
+
+          .pricing-title {
+            margin-bottom: 40px;
+          }
+        }
+      }
+
+      .video {
+        &-container {
+          width: 90%;
+        }
+
+        &-icons {
+          width: 90%;
+        }
+      }
+
+      .product {
+        padding: 20px 0 30px;
+
+        .block {
+          width: 90%;
+
+          .product-container {
+            flex-direction: column;
+
+            .container-image {
+              margin: 20px 0;
+              width: 65%;
+              height: 300px;
+            }
+          }
+        }
+      }
+
+      .trust {
+        &-sponsors {
+          width: 70%;
+        }
+
+        &-bg {
+          width: 90%;
+        }
+      }
+    }
+
+    footer {
+      .footer-bottom {
+        .footer-container {
+          width: 45%;
+        }
+      }
+    }
+  }
+}
